@@ -1,0 +1,10 @@
+public class Basic1 {
+    void hello() {
+        System.out.println("Hello5 Everyone!");
+    }
+
+    public static void main (String[] args) {
+        Basic1 obj1Basic = new Basic1();
+        obj1Basic.hello();
+    }
+}
