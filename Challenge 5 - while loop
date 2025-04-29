@@ -1,0 +1,21 @@
+import java.util.*;
+
+public class Hello5 {
+    Scanner sc = new Scanner(System.in);
+
+    void showHello(){
+        String choice;
+
+        System.out.println("For hello, type h, anything else to stop");
+        choice = sc.next();
+        while("h".equals(choice)) {
+            System.out.println("Hello Everyone!");
+            choice = sc.next();
+        }
+    }
+    public static  void main (String[] args){
+        Hello5 obj1Hello = new Hello5();
+        obj1Hello.showHello();
+    }
+
+}
