@@ -1,0 +1,13 @@
+import java.util.Random;
+
+public class random4 {
+    public  static void main (String[] args){
+        Random r = new Random();
+        int min = 10;
+        int max = 100;
+
+        int num = (int)(Math.random() * (max - min + 1) + min);
+
+        System.out.println("Random integer between 10 - 100: " + num);
+    }
+}
